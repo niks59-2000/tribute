@@ -1,0 +1,160 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:beige;
+}
+/**back and next**/
+
+header{
+    display:flex;
+    justify-content:space-between;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+.back{
+    align-items:flex-start;
+}
+.next{
+    align-items:flex-end;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+header a:hover {
+    background-color: white;
+    color: #333;
+}
+
+.disco{
+    text-align:center;
+    font-size:2em;
+    height:10vh;
+    text-transform:uppercase;
+    color:black;
+    width:100%;
+    margin:0;
+    padding:1em;
+}
+.discography {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.album {
+    background-color:#fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.album img {
+    border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.wiki{
+    margin: 15px 0;
+    color: white;
+    text-align:center;
+    font-size:18px;
+}
+.wiki a{
+    color:grey;
+}
+
+
+/**footer**/
+.footer-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:#333;
+    color:lightgrey;
+    padding: 20px;
+    text-align: center;
+    font-size:18px;
+    min-height:40vh;
+}
+.footer-container p{
+    color:lightgrey;
+}
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    display:flex;
+    flex-flow:row wrap;  
+}
+
+.footer-nav li {
+    display: flex;
+    margin-right: 15px;
+}
+.footer-nav a {
+    color:white;
+    text-decoration: none;
+}
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.item1{
+    padding:15px;
+    text-align:center;
+    color:white;
+    display:inline-flex;
+    align-items:center;
+}
+.item1>div{
+    padding-right:1em;
+}
+.item1 img{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    padding:5px;
+}
+
+@media screen and (min-width:400px) and (max-width:600px){
+    .footer-container{
+        min-height:60vh;
+    }
+    .footer-nav {
+        display:flex;
+       flex-flow:column;
+    }
+    .item2{
+        display:flex;
+    }
+    .item1{
+        display:flex;
+        align-items:center;
+        /* padding-right:1em; */
+    }
+}
