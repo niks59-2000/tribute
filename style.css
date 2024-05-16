@@ -156,16 +156,13 @@ body{
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    background-color:#333;
-    color:lightgrey;
+    background-color:grey;
     padding: 20px;
     text-align: center;
     font-size:18px;
     min-height:40vh;
 }
-.footer-container p{
-    color:lightgrey;
-}
+
 .footer-nav {
     list-style: none;
     padding: 0;
@@ -178,11 +175,11 @@ body{
     margin-right: 15px;
 }
 .footer-nav a {
-    color:white;
+   color:black;
     text-decoration: none;
 }
 .footer-nav a:hover {
-    text-decoration: underline;
+    color:white;
 }
 
 .item3 img{
@@ -202,8 +199,8 @@ body{
     padding-right:1em;
 }
 .item1 img{
-    width:40px;
-    height:40px;
+    width:50px;
+    height:50px;
     border-radius:50%;
     padding:5px;
 }
