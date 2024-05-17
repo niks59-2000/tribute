@@ -156,7 +156,7 @@ body{
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    background-color:grey;
+    background-color:#333;
     padding: 20px;
     text-align: center;
     font-size:18px;
@@ -175,11 +175,11 @@ body{
     margin-right: 15px;
 }
 .footer-nav a {
-   color:black;
+   color:white;
     text-decoration: none;
 }
 .footer-nav a:hover {
-    color:white;
+    color:lightgrey;
 }
 
 .item3 img{

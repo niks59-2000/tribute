@@ -3,34 +3,6 @@ body {
     margin: 0;
     padding: 0;
 }
-/**back and next**/
-
-header{
-    display:flex;
-    justify-content:space-between;
-    background-color: #333;
-    color: white;
-    padding: 20px;
-}
-.back{
-    align-items:flex-start;
-}
-.next{
-    align-items:flex-end;
-}
-header a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    padding: 5px 10px;
-    border: 1px solid white;
-    border-radius: 5px;
-}
-
-header a:hover {
-    background-color: white;
-    color: #333;
-}
 
 .disco{
     text-align:center;
@@ -89,13 +61,14 @@ p {
 
 
 /**footer**/
+
 .footer-container{
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    background-color:grey;
-    color:lightgrey;
+    background-color:#333;
+    color:white;
     padding: 20px;
     text-align: center;
     font-size:18px;
@@ -116,11 +89,11 @@ p {
     margin-right: 15px;
 }
 .footer-nav a {
-    color:black;
+    color:white;
     text-decoration: none;
 }
 .footer-nav a:hover {
-    color:white;
+    color:lightgrey;
 }
 
 .item1{
