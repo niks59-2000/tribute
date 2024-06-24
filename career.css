@@ -74,7 +74,7 @@ body{
     padding: 20px;
     text-align: center;
     font-size:1.2rem;
-    min-height:40vh;
+    min-height:30vh;
 }
 .footer-container p{
     color:lightgrey;
@@ -123,7 +123,8 @@ body{
 
 /*****************************************************/
 
-/**media queries for career**/
+/* *media queries for career* */
+/* 
 @media screen and (min-width:400px) and (max-width:600px){
 
     .container{
@@ -147,4 +148,4 @@ body{
         align-items:center;
         padding-right:1em;
     }
-}
+} */

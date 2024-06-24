@@ -1,0 +1,32 @@
+.main-heading{
+    background-image:none;
+    background-color:black;
+    height:70vh;
+}
+.main-heading h1{
+    text-align:center;
+ }
+ .main-heading h4{
+    text-align:center;
+ }
+ .col1{
+    flex:0 0 65%;
+    padding:30px;
+ }
+ .col2{
+    flex:0 0 35%;
+    padding:30px;
+ }
+
+ /* career */
+
+ .wrapper{
+    flex-direction:column;
+ }
+ .achievements{
+    justify-content: center;
+    padding:20px;
+}
+.achieve{
+    width:100%;
+}

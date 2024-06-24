@@ -8,7 +8,7 @@ body {
   font-size:1rem;
 }
 
-.heading{
+.disco-heading{
     text-align:center;
     font-size:2.5rem;
     text-transform:uppercase;
@@ -49,6 +49,7 @@ h3{
 p {
     margin: 5px 0;
     color: #666;
+    font-size:1rem;
 }
 
 /* .wiki{
@@ -64,6 +65,7 @@ p {
 
 /**footer**/
 
+
 .footer-container{
     display:flex;
     flex-direction:column;
@@ -74,7 +76,7 @@ p {
     padding: 20px;
     text-align: center;
     font-size:18px;
-    min-height:40vh;
+    min-height:30vh;
 }
 .footer-container p{
     color:lightgrey;
@@ -115,21 +117,17 @@ p {
     padding:5px;
 }
 
-@media screen and (min-width:400px) and (max-width:600px){
+@media screen and (max-width:450px){
+    .discography{
+        padding:20px;
+        font-size:1.1rem;
+    }
+    
     .footer-container{
-        min-height:60vh;
+        min-height:40vh;
     }
-    .footer-nav {
-        display:flex;
-       flex-flow:column;
-    }
-    .item2{
-        display:flex;
-    }
-    .item1 img{
-        width:30px;
-        height:30px;
-        border-radius:50%;
-        padding:5px;
+    .footer-nav{
+        flex-flow:column;
+        margin-bottom:20px;
     }
 }
